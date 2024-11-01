@@ -1,0 +1,25 @@
+/* animations */
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* styles */
+.tida_screenshot_form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.screenshot_msg, .screenshot_result {
+    margin-top: 20px;
+}
+
+.screenshot_msg {
+    text-align: center;
+}
+
+.text_blink {
+    animation: blinker 1s linear infinite;
+    text-align: center;
+}
